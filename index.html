@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Saifullah Shaikh - Data Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Arial, sans-serif;
             margin: 0;
             background-color: #f9f9f9;
             color: #333;
-            line-height: 1.6;
         }
         header {
-            background: #2c3e50;
+            background: linear-gradient(135deg, #2c3e50, #2980b9);
             color: white;
-            padding: 20px 0;
+            padding: 40px 20px;
             text-align: center;
         }
         header h1 {
-            margin: 0;
-            font-size: 2rem;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
         }
         header p {
-            margin: 5px 0 0;
             font-size: 1.1rem;
-            color: #ddd;
+            color: #d0d0d0;
         }
         main {
-            max-width: 900px;
-            margin: 20px auto;
+            max-width: 1000px;
+            margin: 30px auto;
             padding: 0 15px;
         }
         section {
             background: white;
-            padding: 20px;
+            padding: 25px;
             margin-bottom: 20px;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
         }
         h2 {
             color: #2c3e50;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.4rem;
         }
         ul {
             padding-left: 20px;
@@ -61,6 +64,15 @@
             margin-top: 20px;
             font-size: 0.9rem;
         }
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.6rem;
+            }
+            section {
+                padding: 15px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -68,11 +80,12 @@
         <h1>Saifullah Shaikh</h1>
         <p>Data & Analytics Professional | SQL | Power BI | Excel | Python</p>
     </header>
+
     <main>
         <section>
-            <h2>About Me</h2>
+            <h2><i class="fas fa-user"></i> About Me</h2>
             <p>
-                I have over <strong>8 years of experience</strong> in data analytics, mainly in the U.S. pharmacy domain. 
+                I have over <strong>8 years of experience</strong> in data analytics, primarily in the U.S. pharmacy domain. 
                 My strengths include SQL, Power BI, Excel, and ETL tools like SSIS and Mirth Connect.
                 I’m passionate about turning raw data into clear, actionable insights and am always learning new skills
                 such as Python and statistics.
@@ -80,7 +93,7 @@
         </section>
 
         <section>
-            <h2>Key Skills</h2>
+            <h2><i class="fas fa-tools"></i> Key Skills</h2>
             <ul>
                 <li>SQL, T-SQL</li>
                 <li>Power BI, MS Excel (Advanced)</li>
@@ -91,13 +104,22 @@
         </section>
 
         <section>
-            <h2>Projects</h2>
+            <h2><i class="fas fa-folder-open"></i> Projects</h2>
             <ul>
                 <li><a href="#">SQL Projects</a></li>
                 <li><a href="#">Python Projects</a></li>
                 <li><a href="#">Power BI Dashboards</a></li>
                 <li><a href="#">Tableau Dashboards</a></li>
             </ul>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-envelope"></i> Contact</h2>
+            <p>
+                <i class="fas fa-envelope"></i> Email: <a href="mailto:saifshaikh@example.com">saifshaikh@example.com</a><br>
+                <i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/saifshaikh" target="_blank">linkedin.com/in/saifshaikh</a><br>
+                <i class="fab fa-github"></i> GitHub: <a href="https://github.com/shaif1992" target="_blank">github.com/shaif1992</a>
+            </p>
         </section>
     </main>
 
