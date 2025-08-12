@@ -3,122 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saif Shaikh | Data Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Saifullah Shaikh - Data Portfolio</title>
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
-            background: #f8f9fa;
+            background-color: #f9f9f9;
             color: #333;
+            line-height: 1.6;
         }
         header {
             background: #2c3e50;
             color: white;
-            padding: 1.5rem;
+            padding: 20px 0;
             text-align: center;
         }
         header h1 {
             margin: 0;
+            font-size: 2rem;
         }
-        nav {
-            background: #34495e;
-            padding: 0.5rem;
-            text-align: center;
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.1rem;
+            color: #ddd;
         }
-        nav a {
-            color: white;
-            margin: 0 1rem;
-            text-decoration: none;
-        }
-        nav a:hover {
-            text-decoration: underline;
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
         }
         section {
-            max-width: 1000px;
-            margin: auto;
-            padding: 2rem;
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
         h2 {
             color: #2c3e50;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 0.5rem;
+            margin-bottom: 10px;
         }
-        .project {
-            background: white;
-            border-radius: 10px;
-            padding: 1rem;
-            margin: 1rem 0;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        ul {
+            padding-left: 20px;
         }
-        .project img {
-            width: 100%;
-            border-radius: 5px;
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         footer {
-            text-align: center;
-            padding: 1rem;
             background: #2c3e50;
             color: white;
-            margin-top: 2rem;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Saif Shaikh</h1>
-        <p>SQL | Python | Power BI | Tableau</p>
+        <h1>Saifullah Shaikh</h1>
+        <p>Data & Analytics Professional | SQL | Power BI | Excel | Python</p>
     </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I have over <strong>8 years of experience</strong> in data analytics, mainly in the U.S. pharmacy domain. 
+                My strengths include SQL, Power BI, Excel, and ETL tools like SSIS and Mirth Connect.
+                I’m passionate about turning raw data into clear, actionable insights and am always learning new skills
+                such as Python and statistics.
+            </p>
+        </section>
 
-    <nav>
-        <a href="#sql">SQL</a>
-        <a href="#python">Python</a>
-        <a href="#powerbi">Power BI</a>
-        <a href="#tableau">Tableau</a>
-    </nav>
+        <section>
+            <h2>Key Skills</h2>
+            <ul>
+                <li>SQL, T-SQL</li>
+                <li>Power BI, MS Excel (Advanced)</li>
+                <li>ETL Tools: SSIS, Mirth Connect</li>
+                <li>Python (Learning)</li>
+                <li>Statistics (Learning)</li>
+            </ul>
+        </section>
 
-    <section id="sql">
-        <h2>SQL Projects</h2>
-        <div class="project">
-            <h3>Sales Analysis Using SQL</h3>
-            <p>Analyzed regional sales trends using Joins, CTEs, and Window Functions.</p>
-            <p><a href="SQL/sales_analysis.sql">View SQL Script</a></p>
-            <img src="images/sql_sales_result.png" alt="SQL Result">
-        </div>
-    </section>
-
-    <section id="python">
-        <h2>Python Projects</h2>
-        <div class="project">
-            <h3>Retail Data EDA</h3>
-            <p>Performed exploratory data analysis using Pandas, Matplotlib, and Seaborn.</p>
-            <p><a href="Python/retail_analysis.ipynb">View Notebook</a></p>
-            <img src="images/eda_plot.png" alt="Python EDA">
-        </div>
-    </section>
-
-    <section id="powerbi">
-        <h2>Power BI Dashboards</h2>
-        <div class="project">
-            <h3>Financial KPI Dashboard</h3>
-            <p>Created KPI dashboard using DAX and data modeling.</p>
-            <p><a href="https://app.powerbi.com/view?r=your_link_here">View Live Dashboard</a></p>
-            <img src="images/powerbi_dashboard.png" alt="Power BI Dashboard">
-        </div>
-    </section>
-
-    <section id="tableau">
-        <h2>Tableau Dashboards</h2>
-        <div class="project">
-            <h3>Customer Segmentation Dashboard</h3>
-            <p>Segmented customers based on purchase history using interactive filters.</p>
-            <p><a href="https://public.tableau.com/views/your_link_here">View on Tableau Public</a></p>
-            <img src="images/tableau_dashboard.png" alt="Tableau Dashboard">
-        </div>
-    </section>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">SQL Projects</a></li>
+                <li><a href="#">Python Projects</a></li>
+                <li><a href="#">Power BI Dashboards</a></li>
+                <li><a href="#">Tableau Dashboards</a></li>
+            </ul>
+        </section>
+    </main>
 
     <footer>
-        <p>📧 saifshaikh@example.com | 🔗 <a style="color:white;" href="https://linkedin.com/in/saifshaikh">LinkedIn</a></p>
+        &copy; 2025 Saifullah Shaikh | Built with ❤️ using GitHub Pages
     </footer>
 </body>
 </html>
