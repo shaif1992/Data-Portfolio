@@ -239,7 +239,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 📞 Contact
 
-**Shaif** - [GitHub Profile](https://github.com/shaif1992)
+**Saifullah Shaikh** - [GitHub Profile](https://github.com/shaif1992)
 
 Project Link: [https://github.com/shaif1992/Data-Portfolio/tree/main/SQL](https://github.com/shaif1992/Data-Portfolio/tree/main/SQL)
 
